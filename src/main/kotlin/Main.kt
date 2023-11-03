@@ -21,7 +21,7 @@ _  /___  / /__ _  / / / /_/ /  __/(__  )     _  /_/ //  __/  /_/ // /_/ /  / / /
     println("\nPress Enter to start...")
     readLine()
 
-
+//this is a message for commit test
 }
 
 fun initializeGame() {
