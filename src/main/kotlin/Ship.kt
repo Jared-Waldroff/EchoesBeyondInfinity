@@ -18,6 +18,8 @@ class Ship (val player: Player){
         println("""
         You slowly open your eyes, greeted by an overwhelming darkness. The sensation of weightlessness surrounds you. In the distance, a faint light glimmers.
     """.trimIndent())
+        Sounds.playTakeOff()
+        Images.displayDarkSpaceship()
     }
 
     private fun displayOptions() {
