@@ -20,6 +20,8 @@ _  /___  / /__ _  / / / /_/ /  __/(__  )     _  /_/ //  __/  /_/ // /_/ /  / / /
     println("Reverberations of Eternity, Culminating in Silence")
     println("\nPress Enter to start...")
     readLine()
+
+
 }
 
 fun initializeGame() {
