@@ -7,7 +7,7 @@ class Images {
     private val frame: JFrame = JFrame("Image Display")
 
     init {
-        frame.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
+        frame.defaultCloseOperation = JFrame.DISPOSE_ON_CLOSE
         frame.setSize(600, 400) // Set the initial size
         frame.setLocationRelativeTo(null) // Center the window
     }

@@ -18,7 +18,7 @@ class Ship (val player: Player){
         println("""
         You slowly open your eyes, greeted by an overwhelming darkness. The sensation of weightlessness surrounds you. In the distance, a faint light glimmers.
     """.trimIndent())
-        Sounds.playTakeOff()
+        Sounds.playShipLoop()
         Images.displayDarkSpaceship()
     }
 
@@ -547,6 +547,8 @@ class Ship (val player: Player){
             "1" -> {
                 println("With a deep breath, you engage the jump drive. A momentary feeling of weightlessness envelops you as the ship lurches forward, tearing through the fabric of reality towards the unknown.")
                 engageJumpDrive()
+                Sounds.stopLoopingSound()
+                Sounds.playTakeOff()
             }
             "2" -> exploreShip()
             else -> {
