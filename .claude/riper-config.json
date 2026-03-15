@@ -1,0 +1,45 @@
+{
+  "agents": {
+    "description": "3-agent consolidated architecture for improved performance",
+    "primary": ["research-innovate", "plan-execute", "review"]
+  },
+  "commands": {
+    "description": "RIPER mode control and memory bank operations",
+    "namespaces": ["riper", "memory"]
+  },
+  "memory-bank": {
+    "auto-backup": true,
+    "branch-aware": true,
+    "directories": {
+      "backups": "backups",
+      "plans": "{branch}/plans",
+      "reviews": "{branch}/reviews",
+      "root": ".claude/memory-bank",
+      "sessions": "{branch}/sessions"
+    },
+    "enabled": true
+  },
+  "project-context": {
+    "important-paths": {
+      "main": "client/js",
+      "scenes": "client/js/scenes",
+      "engine": "client/js/engine",
+      "art": "client/js/art",
+      "design": "design",
+      "docs": "docs"
+    },
+    "key-patterns": [
+      "Async scene functions receiving (terminal, state, effects, audio)",
+      "State flags for story decisions: state.flags['key']",
+      "DENT voice levels tied to state.dentRepairLevel",
+      "Truby 22 beats + Reed 5 tests for scene validation",
+      "Converging River Model: different paths hit same narrative beats",
+      "All display calls are awaited",
+      "Game Design Bible is single source of truth for new chapters"
+    ],
+    "tech-stack": ["Electron", "JavaScript", "Web Audio API", "HTML/CSS CRT aesthetic"]
+  },
+  "reference-docs": [".claude/project-info.md", "design/GAME-DESIGN-BIBLE.md", "CLAUDE.md"],
+  "version": "1.0.0",
+  "workflow": "RIPER"
+}

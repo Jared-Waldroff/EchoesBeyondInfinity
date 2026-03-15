@@ -1,0 +1,8 @@
+{
+  "name": "literary-voice",
+  "version": "1.0.0",
+  "description": "Literary voice engine channeling Andy Weir, James Dashner, and Ernest Cline for Echoes Beyond Infinity story writing",
+  "author": {
+    "name": "Jared Waldroff"
+  }
+}
