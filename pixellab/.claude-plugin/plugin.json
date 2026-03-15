@@ -1,0 +1,20 @@
+{
+  "name": "pixellab",
+  "description": "PixelLab pixel art generation skills — characters, animations, environments, tilesets, rotation, editing, UI elements, and full API reference for game asset creation",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jared Waldroff"
+  },
+  "license": "MIT",
+  "keywords": [
+    "pixellab",
+    "pixel-art",
+    "game-assets",
+    "sprite",
+    "animation",
+    "tileset",
+    "character",
+    "environment",
+    "game-dev"
+  ]
+}
